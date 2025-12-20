@@ -24,3 +24,4 @@ numbers=[ i for i in range(1,21)]
 result=[[num,"EVEN" if num %2 ==0 else "ODD"] for num in numbers]
 
 print(result)
+
