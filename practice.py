@@ -142,10 +142,4 @@
 #     numbers(num - 1)
 # numbers(20)
 
-def numbers(num):
-    if num == 0:
-        return
-    numbers(num - 1)
-    print(num,end=" ")
 
-numbers(20)
